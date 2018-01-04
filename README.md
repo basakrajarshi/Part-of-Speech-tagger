@@ -1,0 +1,2 @@
+# Part-of-Speech-tagger
+ Using POS-tagged data from the Berkeley Restaurant corpus as our training data, first a "most frequent tag" system was implemented, i.e. given counts from the training data, the tagger simply assigns to each input word the tag that it was most frequently assigned to in the training data. Once a working baseline was achieved, the Viterbi algorithm was implemented with a bigram-based approach.
